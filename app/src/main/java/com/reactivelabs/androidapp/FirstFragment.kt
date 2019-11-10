@@ -13,6 +13,7 @@ class FirstFragment : Fragment() {
         container: ViewGroup?,
         savedInstanceState: Bundle?
     ): View? {
+        // ooops, comment
         return inflater.inflate(R.layout.fragment_first, container, false)
     }
 
