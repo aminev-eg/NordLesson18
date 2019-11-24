@@ -27,11 +27,11 @@ class FirstFragment : Fragment() {
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
 
+        //загрузка картинки
         Glide.with(this)
             .load("https://hookagency.com/wp-content/uploads/2018/02/hilarious-stock-photos-for-memes.jpg")
             .error(R.drawable.ic_launcher_foreground)
             .apply(RequestOptions().circleCrop())
             .into(somePhoto)
-
     }
 }

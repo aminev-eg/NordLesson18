@@ -33,7 +33,6 @@ class SimpleAdapter : RecyclerView.Adapter<SimpleAdapter.PostViewHolder>() {
         fun bind(post: Post) = itemView.apply {
             title.text = post.title
             body.text = post.body
-
         }
     }
 }

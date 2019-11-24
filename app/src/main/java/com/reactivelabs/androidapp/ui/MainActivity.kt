@@ -17,6 +17,7 @@ class MainActivity : AppCompatActivity() {
 
         buttonFragment1.setOnClickListener {
             supportFragmentManager.beginTransaction()
+                //запуск программы FirstFragment, инициирующей отображение
                 .replace(R.id.fragmentContainer, FirstFragment())
                 .commit()
         }
@@ -30,6 +31,5 @@ class MainActivity : AppCompatActivity() {
                 .replace(R.id.fragmentContainer, fragment)
                 .commit()
         }
-
     }
 }
