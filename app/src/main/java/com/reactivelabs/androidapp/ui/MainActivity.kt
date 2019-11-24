@@ -1,8 +1,8 @@
-package com.reactivelabs.androidapp
+package com.reactivelabs.androidapp.ui
 
-import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import com.reactivelabs.androidapp.R
 import kotlinx.android.synthetic.main.activity_main.*
 
 class MainActivity : AppCompatActivity() {
