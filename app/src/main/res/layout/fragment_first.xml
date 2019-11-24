@@ -6,6 +6,7 @@
     android:layout_height="match_parent"
     android:background="@android:color/holo_blue_bright">
 
+    <!-- контейнер для примера с картинкой -->
     <ImageView
         android:id="@+id/somePhoto"
         android:layout_width="500dp"

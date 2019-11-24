@@ -22,11 +22,12 @@ class MainActivity : AppCompatActivity() {
                 .commit()
         }
 
+        //функция реакции на кнопку buttonFragment2
         buttonFragment2.setOnClickListener {
-            val fragment = SecondFragment()
-            val bundle = Bundle()
-            bundle.putString("someData", "Pretty string")
-            fragment.arguments = bundle
+            val fragment = SecondFragment()      //фиксация к какому фрагменту переходим
+            val bundle = Bundle()                //привязка переменной bundle к данным, хранящимся в Bundle()
+            bundle.putString("someData", "Pretty string") //имя данных "someData", строка данных "Pretty string"
+            fragment.arguments = bundle          //фиксация данных в аргументах фрагмента
             supportFragmentManager.beginTransaction()
                 .replace(R.id.fragmentContainer, fragment)
                 .commit()

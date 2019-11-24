@@ -10,6 +10,7 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent">
 
+        <!-- recyclerview отображение элементов тексты, картинки (здесь прописаны в layout/item_post.xml -->
         <androidx.recyclerview.widget.RecyclerView
             android:id="@+id/postsList"
             android:layout_width="match_parent"
